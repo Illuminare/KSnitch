@@ -1,0 +1,47 @@
+Analyzing...
+Analyzing KSnitch.Tests.Fixtures.sln
+Analyzing Foo...
+Analyzing Bar...
+Analyzing Baz...
+Analyzing Qux...
+Analyzing Zap...
+
+╭──────────────────────────────────────────────────────────────╮
+│  Packages that can be removed from Bar:                      │
+│ ┌─────────────────────┬────────────────────────────────────┐ │
+│ │ Package             │ Referenced by                      │ │
+│ ├─────────────────────┼────────────────────────────────────┤ │
+│ │ Autofac             │ Foo                                │ │
+│ └─────────────────────┴────────────────────────────────────┘ │
+│                                                              │
+│  Packages that can be removed from Baz:                      │
+│ ┌─────────────────────┬────────────────────────────────────┐ │
+│ │ Package             │ Referenced by                      │ │
+│ ├─────────────────────┼────────────────────────────────────┤ │
+│ │ Autofac             │ Foo                                │ │
+│ └─────────────────────┴────────────────────────────────────┘ │
+│                                                              │
+│  Packages that might be removed from Qux:                    │
+│ ┌───────────┬───────────┬──────────────────────────────────┐ │
+│ │ Package   │ Version   │ Reason                           │ │
+│ ├───────────┼───────────┼──────────────────────────────────┤ │
+│ │ Autofac   │ 4.9.3     │ Downgraded from 4.9.4 in Foo     │ │
+│ └───────────┴───────────┴──────────────────────────────────┘ │
+│                                                              │
+│  Packages that might be removed from Zap:                    │
+│ ┌─────────────────┬─────────┬──────────────────────────────┐ │
+│ │ Package         │ Version │ Reason                       │ │
+│ ├─────────────────┼─────────┼──────────────────────────────┤ │
+│ │ Newtonsoft.Json │ 12.0.3  │ Updated from 12.0.1 in Foo   │ │
+│ │ Autofac         │ 4.9.3   │ Downgraded from 4.9.4 in Foo │ │
+│ └─────────────────┴─────────┴──────────────────────────────┘ │
+╰──────────────────────────────────────────────────────────────╯
+Removing references that  might  be removed...
+Nothing to remove in Foo.csproj...
+Nothing to remove in Bar.csproj...
+Nothing to remove in Baz.csproj...
+Removing references that might be removed from Qux.csproj...
+Removing Autofac with version 4.9.3
+Removing references that might be removed from Zap.csproj...
+Removing Newtonsoft.Json with version 12.0.3
+Removing Autofac with version 4.9.3

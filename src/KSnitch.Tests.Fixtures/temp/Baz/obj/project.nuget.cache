@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "rlaJ1M8ab/t6CqPA7Sb1HJa8+2J9oCIWBBrhoC4Qy3zrTeADnDtWVvX5Xw543uA2Mhtcuu1sntMJ5ubjoHs3rA==",
+  "success": true,
+  "projectFilePath": "C:\\Kappa\\snitch-master\\snitch-master\\src\\KSnitch.Tests.Fixtures\\Baz\\Baz.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\autofac\\4.9.4\\autofac.4.9.4.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

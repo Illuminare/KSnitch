@@ -1,0 +1,8 @@
+c:\Kappa\snitch-master\snitch-master\src\Snitch.Tests.Fixtures\Foo\bin\Debug\netstandard2.0\Foo.deps.json
+c:\Kappa\snitch-master\snitch-master\src\Snitch.Tests.Fixtures\Foo\obj\Debug\netstandard2.0\Foo.GeneratedMSBuildEditorConfig.editorconfig
+c:\Kappa\snitch-master\snitch-master\src\Snitch.Tests.Fixtures\Foo\obj\Debug\netstandard2.0\Foo.AssemblyInfoInputs.cache
+c:\Kappa\snitch-master\snitch-master\src\Snitch.Tests.Fixtures\Foo\obj\Debug\netstandard2.0\Foo.AssemblyInfo.cs
+C:\Kappa\snitch-master\snitch-master\src\KSnitch.Tests.Fixtures\Foo\bin\Debug\netstandard2.0\Foo.deps.json
+C:\Kappa\snitch-master\snitch-master\src\KSnitch.Tests.Fixtures\Foo\obj\Debug\netstandard2.0\Foo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Kappa\snitch-master\snitch-master\src\KSnitch.Tests.Fixtures\Foo\obj\Debug\netstandard2.0\Foo.AssemblyInfoInputs.cache
+C:\Kappa\snitch-master\snitch-master\src\KSnitch.Tests.Fixtures\Foo\obj\Debug\netstandard2.0\Foo.AssemblyInfo.cs
