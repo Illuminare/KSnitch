@@ -5,6 +5,14 @@
 A tool that help you find transitive package references that can be removed. (and remove them)
 Rework from the Snitch tool by: spectresystems
 
+## Added functionality:
+
+    -o, --outputsimple         Return results in simple ANSI mode (no colored console!)
+    -c, --applycan             Remove the references from 'Can Remove' subset
+    -m, --applymay             Remove the references from 'Might Remove' subset
+    -n, --noBuild              Analyze via solution file without building of all the projects. (Saves the time)
+
+
 ## Example
 
 ```
