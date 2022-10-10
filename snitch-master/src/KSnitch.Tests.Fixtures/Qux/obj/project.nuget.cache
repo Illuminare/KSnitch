@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "NF7jwueOCrJJr7xKr9oNKBpZkkUthEA4vR3PEPSKnfrLeR9KBwjBkDpR++UVvlCngJwuZGw8iPEFCxk4fr2lGw==",
+  "success": false,
+  "projectFilePath": "C:\\Kappa\\snitch-master\\snitch-master\\src\\KSnitch.Tests.Fixtures\\Qux\\Qux.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\autofac\\4.9.3\\autofac.4.9.3.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\12.0.1\\newtonsoft.json.12.0.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Detected package downgrade: Autofac from 4.9.4 to 4.9.3. Reference the package directly from the project to select a different version. \r\n Qux -> Foo -> Autofac (>= 4.9.4) \r\n Qux -> Autofac (>= 4.9.3)",
+      "libraryId": "Autofac",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
+}

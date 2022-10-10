@@ -1,0 +1,47 @@
+Analyzing...
+Analyzing KSnitch.Tests.Fixtures.sln
+
+╭────────────────────────────────────────────────────────────╮
+│  Packages that can be removed from Bar:                    │
+│ ┌────────────────────┬───────────────────────────────────┐ │
+│ │ Package            │ Referenced by                     │ │
+│ ├────────────────────┼───────────────────────────────────┤ │
+│ │ Autofac            │ Foo                               │ │
+│ └────────────────────┴───────────────────────────────────┘ │
+│                                                            │
+│  Packages that can be removed from Baz:                    │
+│ ┌────────────────────┬───────────────────────────────────┐ │
+│ │ Package            │ Referenced by                     │ │
+│ ├────────────────────┼───────────────────────────────────┤ │
+│ │ Autofac            │ Foo                               │ │
+│ └────────────────────┴───────────────────────────────────┘ │
+│                                                            │
+│  Packages that might be removed from Qux:                  │
+│ ┌───────────────┬───────────────┬────────────────────────┐ │
+│ │ Package       │ Version       │ Reason                 │ │
+│ ├───────────────┼───────────────┼────────────────────────┤ │
+│ │ Autofac       │ 4.9.3         │  4.9.4 in Foo          │ │
+│ └───────────────┴───────────────┴────────────────────────┘ │
+│                                                            │
+│  Packages that might be removed from Zap:                  │
+│ ┌─────────────────┬─────────┬────────────────────────────┐ │
+│ │ Package         │ Version │ Reason                     │ │
+│ ├─────────────────┼─────────┼────────────────────────────┤ │
+│ │ Newtonsoft.Json │ 12.0.3  │ Updated from 12.0.1 in Foo │ │
+│ │ Autofac         │ 4.9.3   │  4.9.4 in Foo              │ │
+│ └─────────────────┴─────────┴────────────────────────────┘ │
+╰────────────────────────────────────────────────────────────╯
+Removing references from packages.props that are not in projects...
+Nodes to be removed:
+ProjNet : 2.0.0
+System.Resources.Extensions : 6.0.0
+System.Runtime.CompilerServices.Unsafe : 6.0.0
+System.Resources.Extensions : 6.0.0
+Microsoft.Tpl.Dataflow : 4.5.24
+Triangle.NET : 1.0.0
+xunit : 1.9.2
+xunit.extensions : 1.9.2
+xunit.runner.Console : 2.1.0
+xUnit.runner.visualstudio : 2.3.1
+Packages.props cleared
+Clear Packages.props: 0

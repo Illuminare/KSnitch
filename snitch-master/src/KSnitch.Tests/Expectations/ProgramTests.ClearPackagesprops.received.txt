@@ -1,0 +1,117 @@
+Analyzing...
+Analyzing kwtools.sln
+Analysing projects: 1/14
+
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Packages that might be removed from DemoLicenseRequestTool:                    │
+│ ┌─────────────┬─────────────┬─────────────────────────────────────────────────┐ │
+│ │ Package     │ Version     │ Reason                                          │ │
+│ ├─────────────┼─────────────┼─────────────────────────────────────────────────┤ │
+│ │ Log4net     │ *           │  * in LicenceRequestCommonTools                 │ │
+│ └─────────────┴─────────────┴─────────────────────────────────────────────────┘ │
+│                                                                                 │
+│  Packages that might be removed from DemoLicenseRequestTool_UT:                 │
+│ ┌───────────────────────────────┬──────────┬──────────────────────────────────┐ │
+│ │ Package                       │ Version  │ Reason                           │ │
+│ ├───────────────────────────────┼──────────┼──────────────────────────────────┤ │
+│ │ Log4net                       │ *        │  * in LicenceRequestCommonTools  │ │
+│ │ System.Resources.Extensions   │ *        │  * in LicenceRequestCommonTools  │ │
+│ └───────────────────────────────┴──────────┴──────────────────────────────────┘ │
+│                                                                                 │
+│  Packages that might be removed from SLBLicenseRequestTool:                     │
+│ ┌─────────────┬─────────────┬─────────────────────────────────────────────────┐ │
+│ │ Package     │ Version     │ Reason                                          │ │
+│ ├─────────────┼─────────────┼─────────────────────────────────────────────────┤ │
+│ │ Log4net     │ *           │  * in LicenceRequestCommonTools                 │ │
+│ └─────────────┴─────────────┴─────────────────────────────────────────────────┘ │
+│                                                                                 │
+│  Packages that might be removed from DiagnosticTool.Core:                       │
+│ ┌──────────────────────┬────────────┬─────────────────────────────────────────┐ │
+│ │ Package              │ Version    │ Reason                                  │ │
+│ ├──────────────────────┼────────────┼─────────────────────────────────────────┤ │
+│ │ KW.Dom.Settings      │ *          │  * in LicenceRequestCommonTools         │ │
+│ │ KW.App.Helpers       │ *          │  * in LicenceRequestCommonTools         │ │
+│ │ Log4net              │ *          │  * in LicenceRequestCommonTools         │ │
+│ └──────────────────────┴────────────┴─────────────────────────────────────────┘ │
+│                                                                                 │
+│  Packages that might be removed from DiagnosticTool.Client.Exe:                 │
+│ ┌─────────────────────────────────┬─────────┬─────────────────────────────────┐ │
+│ │ Package                         │ Version │ Reason                          │ │
+│ ├─────────────────────────────────┼─────────┼─────────────────────────────────┤ │
+│ │ Kappa.Protection.Interfaces     │ *       │  * in DiagnosticTool.Core       │ │
+│ │ Kappa.Protection.Licensing.x64  │ *       │  * in DiagnosticTool.Core       │ │
+│ │ Kappa.Protection.Security       │ *       │  * in DiagnosticTool.Core       │ │
+│ │ KW.Dom.Settings                 │ *       │  * in LicenceRequestCommonTools │ │
+│ │ CommandLineParser               │ *       │  * in DiagnosticTool.Core       │ │
+│ │ Log4net                         │ *       │  * in LicenceRequestCommonTools │ │
+│ │ Newtonsoft.Json                 │ *       │  * in DiagnosticTool.Core       │ │
+│ └─────────────────────────────────┴─────────┴─────────────────────────────────┘ │
+│                                                                                 │
+│  Packages that might be removed from DiagnosticTool.Exe:                        │
+│ ┌─────────────────────────────────┬─────────┬─────────────────────────────────┐ │
+│ │ Package                         │ Version │ Reason                          │ │
+│ ├─────────────────────────────────┼─────────┼─────────────────────────────────┤ │
+│ │ Kappa.Protection.Interfaces     │ *       │  * in DiagnosticTool.Core       │ │
+│ │ Kappa.Protection.Licensing.x64  │ *       │  * in DiagnosticTool.Core       │ │
+│ │ Kappa.Protection.Security       │ *       │  * in DiagnosticTool.Core       │ │
+│ │ KW.Dom.Settings                 │ *       │  * in LicenceRequestCommonTools │ │
+│ │ CommandLineParser               │ *       │  * in DiagnosticTool.Core       │ │
+│ │ Log4net                         │ *       │  * in LicenceRequestCommonTools │ │
+│ │ Newtonsoft.Json                 │ *       │  * in DiagnosticTool.Core       │ │
+│ └─────────────────────────────────┴─────────┴─────────────────────────────────┘ │
+│                                                                                 │
+│  Packages that might be removed from DiagnosticTool_UT:                         │
+│ ┌─────────────────────────────────┬─────────┬─────────────────────────────────┐ │
+│ │ Package                         │ Version │ Reason                          │ │
+│ ├─────────────────────────────────┼─────────┼─────────────────────────────────┤ │
+│ │ Kappa.Protection.Interfaces     │ *       │  * in DiagnosticTool.Core       │ │
+│ │ Kappa.Protection.Security       │ *       │  * in DiagnosticTool.Core       │ │
+│ │ Kappa.Protection.Licensing.x64  │ *       │  * in DiagnosticTool.Core       │ │
+│ │ KCore.Inf.CrossCutting.Settings │ *       │  * in DiagnosticTool.Core       │ │
+│ │ KW.Dom.Settings                 │ *       │  * in LicenceRequestCommonTools │ │
+│ │ Newtonsoft.Json                 │ *       │  * in DiagnosticTool.Core       │ │
+│ └─────────────────────────────────┴─────────┴─────────────────────────────────┘ │
+│                                                                                 │
+│  Packages that might be removed from LicenseSettingsTool.exe:                   │
+│ ┌──────────────────────┬────────────┬─────────────────────────────────────────┐ │
+│ │ Package              │ Version    │ Reason                                  │ │
+│ ├──────────────────────┼────────────┼─────────────────────────────────────────┤ │
+│ │ KW.App.Helpers       │ *          │  * in LicenceRequestCommonTools         │ │
+│ │ KW.Dom.Settings      │ *          │  * in LicenceRequestCommonTools         │ │
+│ └──────────────────────┴────────────┴─────────────────────────────────────────┘ │
+│                                                                                 │
+│  Packages that might be removed from LicenseSettingsTool_UT:                    │
+│ ┌─────────────────────────────────┬─────────┬─────────────────────────────────┐ │
+│ │ Package                         │ Version │ Reason                          │ │
+│ ├─────────────────────────────────┼─────────┼─────────────────────────────────┤ │
+│ │ Kappa.Protection.Interfaces     │ *       │  * in LicenseSettingsTool.exe   │ │
+│ │ Kappa.Protection.Security       │ *       │  * in LicenseSettingsTool.exe   │ │
+│ │ Kappa.Protection.Licensing.x64  │ *       │  * in LicenseSettingsTool.exe   │ │
+│ │ KCore.Inf.CrossCutting.Settings │ *       │  * in LicenseSettingsTool.exe   │ │
+│ │ KW.Dom.Settings                 │ *       │  * in LicenceRequestCommonTools │ │
+│ │ Newtonsoft.Json                 │ *       │  * in LicenseSettingsTool.exe   │ │
+│ └─────────────────────────────────┴─────────┴─────────────────────────────────┘ │
+│                                                                                 │
+│  Packages that might be removed from NetworkLicenseRequestTool:                 │
+│ ┌─────────────┬─────────────┬─────────────────────────────────────────────────┐ │
+│ │ Package     │ Version     │ Reason                                          │ │
+│ ├─────────────┼─────────────┼─────────────────────────────────────────────────┤ │
+│ │ Log4net     │ *           │  * in LicenceRequestCommonTools                 │ │
+│ └─────────────┴─────────────┴─────────────────────────────────────────────────┘ │
+╰──────────────────────────────────────────────────────────────────────────────╯
+Removing references from packages.props that are not in projects...
+Nodes to be removed:
+KCore.Inf.BaseTypes : 5.5.2-*
+KCore.Inf.Command : 5.5.2-*
+KCore.Inf.CommonResource : 5.5.2-*
+KCore.Inf.CrossCutting.LogAndErrorHandling : 5.5.2-*
+KCore.Inf.CrossCutting.Mathematics : 5.5.2-*
+KCore.Inf.Events : 5.5.2-*
+KCore.Inf.Utilities : 5.5.2-*
+System.IO.FileSystem.Primitives : 4.3.0
+System.IO.Packaging : 4.5.0
+xUnit.extensions : 1.9.2
+xunit.runner.console : 2.1.0
+Packages.props cleared
+Clear Packages.props: 0
+Analysing projects: 13/14

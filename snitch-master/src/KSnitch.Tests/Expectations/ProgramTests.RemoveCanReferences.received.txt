@@ -1,0 +1,211 @@
+Analyzing...
+Analyzing kwtools.sln
+Analyzing DemoLicenseRequestTool...
+  * Analyzing LicenceRequestCommonTools (net461)...
+Analyzing DemoLicenseRequestTool_UT...
+Analyzing SLBLicenseRequestTool...
+Analyzing DiagnosticTool.Core...
+Analyzing DiagnosticTool.Client.Exe...
+Analyzing DiagnosticTool.Exe...
+Analyzing DiagnosticTool_UT...
+Analyzing LicenseSettingsTool.exe...
+Analyzing LicenseSettingsTool_UT...
+Analyzing LicenseSettingsTool.Sample...
+Analyzing NetworkLicenseRequestTool...
+Analyzing KWInstallerSettingsTool.exe...
+Analyzing KWInstallerSettingsTool_UT...
+
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Packages that can be removed from DemoLicenseRequestTool:                                             │
+│ ┌───────────────────────┬────────────────────────────────────────────────────────────────────────────┐ │
+│ │ Package               │ Referenced by                                                              │ │
+│ ├───────────────────────┼────────────────────────────────────────────────────────────────────────────┤ │
+│ │ Log4net               │ LicenceRequestCommonTools                                                  │ │
+│ └───────────────────────┴────────────────────────────────────────────────────────────────────────────┘ │
+│                                                                                                        │
+│  Packages that can be removed from DemoLicenseRequestTool_UT:                                          │
+│ ┌────────────────────────────────────────────────────┬───────────────────────────────────────────────┐ │
+│ │ Package                                            │ Referenced by                                 │ │
+│ ├────────────────────────────────────────────────────┼───────────────────────────────────────────────┤ │
+│ │ Log4net                                            │ LicenceRequestCommonTools                     │ │
+│ │ System.Resources.Extensions                        │ LicenceRequestCommonTools                     │ │
+│ └────────────────────────────────────────────────────┴───────────────────────────────────────────────┘ │
+│                                                                                                        │
+│  Packages that can be removed from SLBLicenseRequestTool:                                              │
+│ ┌───────────────────────┬────────────────────────────────────────────────────────────────────────────┐ │
+│ │ Package               │ Referenced by                                                              │ │
+│ ├───────────────────────┼────────────────────────────────────────────────────────────────────────────┤ │
+│ │ Log4net               │ LicenceRequestCommonTools                                                  │ │
+│ └───────────────────────┴────────────────────────────────────────────────────────────────────────────┘ │
+│                                                                                                        │
+│  Packages that can be removed from DiagnosticTool.Core:                                                │
+│ ┌───────────────────────┬────────────────────────────────────────────────────────────────────────────┐ │
+│ │ Package               │ Referenced by                                                              │ │
+│ ├───────────────────────┼────────────────────────────────────────────────────────────────────────────┤ │
+│ │ Log4net               │ LicenceRequestCommonTools                                                  │ │
+│ └───────────────────────┴────────────────────────────────────────────────────────────────────────────┘ │
+│                                                                                                        │
+│  Packages that can be removed from DiagnosticTool.Client.Exe:                                          │
+│ ┌─────────────────────────────────────────┬──────────────────────────────────────────────────────────┐ │
+│ │ Package                                 │ Referenced by                                            │ │
+│ ├─────────────────────────────────────────┼──────────────────────────────────────────────────────────┤ │
+│ │ CommandLineParser                       │ DiagnosticTool.Core                                      │ │
+│ │ Log4net                                 │ LicenceRequestCommonTools                                │ │
+│ │ Newtonsoft.Json                         │ DiagnosticTool.Core                                      │ │
+│ └─────────────────────────────────────────┴──────────────────────────────────────────────────────────┘ │
+│                                                                                                        │
+│  Packages that can be removed from DiagnosticTool.Exe:                                                 │
+│ ┌─────────────────────────────────────────┬──────────────────────────────────────────────────────────┐ │
+│ │ Package                                 │ Referenced by                                            │ │
+│ ├─────────────────────────────────────────┼──────────────────────────────────────────────────────────┤ │
+│ │ CommandLineParser                       │ DiagnosticTool.Core                                      │ │
+│ │ Log4net                                 │ LicenceRequestCommonTools                                │ │
+│ │ Newtonsoft.Json                         │ DiagnosticTool.Core                                      │ │
+│ └─────────────────────────────────────────┴──────────────────────────────────────────────────────────┘ │
+│                                                                                                        │
+│  Packages that can be removed from DiagnosticTool_UT:                                                  │
+│ ┌────────────────────────────────────────────┬───────────────────────────────────────────────────────┐ │
+│ │ Package                                    │ Referenced by                                         │ │
+│ ├────────────────────────────────────────────┼───────────────────────────────────────────────────────┤ │
+│ │ Newtonsoft.Json                            │ DiagnosticTool.Core                                   │ │
+│ └────────────────────────────────────────────┴───────────────────────────────────────────────────────┘ │
+│                                                                                                        │
+│  Packages that can be removed from LicenseSettingsTool_UT:                                             │
+│ ┌────────────────────────────────────────┬───────────────────────────────────────────────────────────┐ │
+│ │ Package                                │ Referenced by                                             │ │
+│ ├────────────────────────────────────────┼───────────────────────────────────────────────────────────┤ │
+│ │ Newtonsoft.Json                        │ LicenseSettingsTool.exe                                   │ │
+│ └────────────────────────────────────────┴───────────────────────────────────────────────────────────┘ │
+│                                                                                                        │
+│  Packages that can be removed from NetworkLicenseRequestTool:                                          │
+│ ┌───────────────────────┬────────────────────────────────────────────────────────────────────────────┐ │
+│ │ Package               │ Referenced by                                                              │ │
+│ ├───────────────────────┼────────────────────────────────────────────────────────────────────────────┤ │
+│ │ Log4net               │ LicenceRequestCommonTools                                                  │ │
+│ └───────────────────────┴────────────────────────────────────────────────────────────────────────────┘ │
+│                                                                                                        │
+│  Packages that might be removed from DiagnosticTool.Core:                                              │
+│ ┌─────────────────────┬────────────┬─────────────────────────────────────────────────────────────────┐ │
+│ │ Package             │ Version    │ Reason                                                          │ │
+│ ├─────────────────────┼────────────┼─────────────────────────────────────────────────────────────────┤ │
+│ │ KW.Dom.Settings     │ 5.50.1-*   │ Downgraded from 5.50.1-* in LicenceRequestCommonTools           │ │
+│ │ KW.App.Helpers      │ 5.50.1-*   │ Downgraded from 5.50.1-* in LicenceRequestCommonTools           │ │
+│ └─────────────────────┴────────────┴─────────────────────────────────────────────────────────────────┘ │
+│                                                                                                        │
+│  Packages that might be removed from DiagnosticTool.Client.Exe:                                        │
+│ ┌─────────────────────────────────┬──────────┬───────────────────────────────────────────────────────┐ │
+│ │ Package                         │ Version  │ Reason                                                │ │
+│ ├─────────────────────────────────┼──────────┼───────────────────────────────────────────────────────┤ │
+│ │ Kappa.Protection.Interfaces     │ 5.5.2-*  │ Downgraded from 5.5.2-* in DiagnosticTool.Core        │ │
+│ │ Kappa.Protection.Licensing.x64  │ 5.5.2-*  │ Downgraded from 5.5.2-* in DiagnosticTool.Core        │ │
+│ │ Kappa.Protection.Security       │ 5.5.2-*  │ Downgraded from 5.5.2-* in DiagnosticTool.Core        │ │
+│ │ KW.Dom.Settings                 │ 5.50.1-* │ Downgraded from 5.50.1-* in LicenceRequestCommonTools │ │
+│ └─────────────────────────────────┴──────────┴───────────────────────────────────────────────────────┘ │
+│                                                                                                        │
+│  Packages that might be removed from DiagnosticTool.Exe:                                               │
+│ ┌─────────────────────────────────┬──────────┬───────────────────────────────────────────────────────┐ │
+│ │ Package                         │ Version  │ Reason                                                │ │
+│ ├─────────────────────────────────┼──────────┼───────────────────────────────────────────────────────┤ │
+│ │ Kappa.Protection.Interfaces     │ 5.5.2-*  │ Downgraded from 5.5.2-* in DiagnosticTool.Core        │ │
+│ │ Kappa.Protection.Licensing.x64  │ 5.5.2-*  │ Downgraded from 5.5.2-* in DiagnosticTool.Core        │ │
+│ │ Kappa.Protection.Security       │ 5.5.2-*  │ Downgraded from 5.5.2-* in DiagnosticTool.Core        │ │
+│ │ KW.Dom.Settings                 │ 5.50.1-* │ Downgraded from 5.50.1-* in LicenceRequestCommonTools │ │
+│ └─────────────────────────────────┴──────────┴───────────────────────────────────────────────────────┘ │
+│                                                                                                        │
+│  Packages that might be removed from DiagnosticTool_UT:                                                │
+│ ┌─────────────────────────────────┬──────────┬───────────────────────────────────────────────────────┐ │
+│ │ Package                         │ Version  │ Reason                                                │ │
+│ ├─────────────────────────────────┼──────────┼───────────────────────────────────────────────────────┤ │
+│ │ Kappa.Protection.Interfaces     │ 5.5.2-*  │ Downgraded from 5.5.2-* in DiagnosticTool.Core        │ │
+│ │ Kappa.Protection.Security       │ 5.5.2-*  │ Downgraded from 5.5.2-* in DiagnosticTool.Core        │ │
+│ │ Kappa.Protection.Licensing.x64  │ 5.5.2-*  │ Downgraded from 5.5.2-* in DiagnosticTool.Core        │ │
+│ │ KCore.Inf.CrossCutting.Settings │ 5.5.2-*  │ Downgraded from 5.5.2-* in DiagnosticTool.Core        │ │
+│ │ KW.Dom.Settings                 │ 5.50.1-* │ Downgraded from 5.50.1-* in LicenceRequestCommonTools │ │
+│ └─────────────────────────────────┴──────────┴───────────────────────────────────────────────────────┘ │
+│                                                                                                        │
+│  Packages that might be removed from LicenseSettingsTool.exe:                                          │
+│ ┌─────────────────────┬────────────┬─────────────────────────────────────────────────────────────────┐ │
+│ │ Package             │ Version    │ Reason                                                          │ │
+│ ├─────────────────────┼────────────┼─────────────────────────────────────────────────────────────────┤ │
+│ │ KW.App.Helpers      │ 5.50.1-*   │ Downgraded from 5.50.1-* in LicenceRequestCommonTools           │ │
+│ │ KW.Dom.Settings     │ 5.50.1-*   │ Downgraded from 5.50.1-* in LicenceRequestCommonTools           │ │
+│ └─────────────────────┴────────────┴─────────────────────────────────────────────────────────────────┘ │
+│                                                                                                        │
+│  Packages that might be removed from LicenseSettingsTool_UT:                                           │
+│ ┌─────────────────────────────────┬──────────┬───────────────────────────────────────────────────────┐ │
+│ │ Package                         │ Version  │ Reason                                                │ │
+│ ├─────────────────────────────────┼──────────┼───────────────────────────────────────────────────────┤ │
+│ │ Kappa.Protection.Interfaces     │ 5.5.2-*  │ Downgraded from 5.5.2-* in LicenseSettingsTool.exe    │ │
+│ │ Kappa.Protection.Security       │ 5.5.2-*  │ Downgraded from 5.5.2-* in LicenseSettingsTool.exe    │ │
+│ │ Kappa.Protection.Licensing.x64  │ 5.5.2-*  │ Downgraded from 5.5.2-* in LicenseSettingsTool.exe    │ │
+│ │ KCore.Inf.CrossCutting.Settings │ 5.5.2-*  │ Downgraded from 5.5.2-* in LicenseSettingsTool.exe    │ │
+│ │ KW.Dom.Settings                 │ 5.50.1-* │ Downgraded from 5.50.1-* in LicenceRequestCommonTools │ │
+│ └─────────────────────────────────┴──────────┴───────────────────────────────────────────────────────┘ │
+╰──────────────────────────────────────────────────────────────────────────────╯
+Removing references that  can  be removed...
+Removing references that can be removed from DemoLicenseRequestTool.csproj...
+Removing Log4net with version 2.0.12
+Removing references that can be removed from DemoLicenseRequestTool_UT.csproj...
+Removing Log4net with version 2.0.12
+Removing System.Resources.Extensions with version 6.0.0
+Removing references that can be removed from SLBLicenseRequestTool.csproj...
+Removing Log4net with version 2.0.12
+Removing references that can be removed from DiagnosticTool.Core.csproj...
+Removing Log4net with version 2.0.12
+Removing references that can be removed from DiagnosticTool.Client.Exe.csproj...
+Removing CommandLineParser with version 1.9.71
+Removing Log4net with version 2.0.12
+Removing Newtonsoft.Json with version 6.0.8
+Removing references that can be removed from DiagnosticTool.Exe.csproj...
+Removing CommandLineParser with version 1.9.71
+Removing Log4net with version 2.0.12
+Removing Newtonsoft.Json with version 6.0.8
+Removing references that can be removed from DiagnosticTool_UT.csproj...
+Removing Newtonsoft.Json with version 6.0.8
+Nothing to remove in LicenseSettingsTool.exe.csproj...
+Removing references that can be removed from LicenseSettingsTool_UT.csproj...
+Removing Newtonsoft.Json with version 6.0.8
+Nothing to remove in LicenseSettingsTool.Sample.csproj...
+Nothing to remove in LicenceRequestCommonTools.csproj...
+Removing references that can be removed from NetworkLicenseRequestTool.csproj...
+Removing Log4net with version 2.0.12
+Nothing to remove in KWInstallerSettingsTool.exe.csproj...
+Nothing to remove in KWInstallerSettingsTool_UT.csproj...
+Removing references that  might  be removed...
+Nothing to remove in DemoLicenseRequestTool.csproj...
+Nothing to remove in DemoLicenseRequestTool_UT.csproj...
+Nothing to remove in SLBLicenseRequestTool.csproj...
+Removing references that might be removed from DiagnosticTool.Core.csproj...
+Removing KW.Dom.Settings with version [5.50.1-*, )
+Removing KW.App.Helpers with version [5.50.1-*, )
+Removing references that might be removed from 
+DiagnosticTool.Client.Exe.csproj...
+Removing Kappa.Protection.Interfaces with version [5.5.2-*, )
+Removing Kappa.Protection.Licensing.x64 with version [5.5.2-*, )
+Removing Kappa.Protection.Security with version [5.5.2-*, )
+Removing KW.Dom.Settings with version [5.50.1-*, )
+Removing references that might be removed from DiagnosticTool.Exe.csproj...
+Removing Kappa.Protection.Interfaces with version [5.5.2-*, )
+Removing Kappa.Protection.Licensing.x64 with version [5.5.2-*, )
+Removing Kappa.Protection.Security with version [5.5.2-*, )
+Removing KW.Dom.Settings with version [5.50.1-*, )
+Removing references that might be removed from DiagnosticTool_UT.csproj...
+Removing Kappa.Protection.Interfaces with version [5.5.2-*, )
+Removing Kappa.Protection.Security with version [5.5.2-*, )
+Removing Kappa.Protection.Licensing.x64 with version [5.5.2-*, )
+Removing KCore.Inf.CrossCutting.Settings with version [5.5.2-*, )
+Removing KW.Dom.Settings with version [5.50.1-*, )
+Removing references that might be removed from LicenseSettingsTool.exe.csproj...
+Removing KW.App.Helpers with version [5.50.1-*, )
+Removing KW.Dom.Settings with version [5.50.1-*, )
+Removing references that might be removed from LicenseSettingsTool_UT.csproj...
+Removing Kappa.Protection.Interfaces with version [5.5.2-*, )
+Removing Kappa.Protection.Security with version [5.5.2-*, )
+Removing Kappa.Protection.Licensing.x64 with version [5.5.2-*, )
+Removing KCore.Inf.CrossCutting.Settings with version [5.5.2-*, )
+Removing KW.Dom.Settings with version [5.50.1-*, )
+Nothing to remove in LicenseSettingsTool.Sample.csproj...
+Nothing to remove in LicenceRequestCommonTools.csproj...
+Nothing to remove in NetworkLicenseRequestTool.csproj...
+Nothing to remove in KWInstallerSettingsTool.exe.csproj...
+Nothing to remove in KWInstallerSettingsTool_UT.csproj...

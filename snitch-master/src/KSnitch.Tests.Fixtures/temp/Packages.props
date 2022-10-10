@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <ItemGroup>
+	<PackageReference Update="ProjNet" Version="2.0.0" />
+	<PackageReference Update="System.Resources.Extensions" Version="6.0.0" />
+	<PackageReference Update="System.Runtime.CompilerServices.Unsafe" Version="6.0.0" />
+	<PackageReference Update="System.Resources.Extensions" Version="6.0.0" />
+    <PackageReference Update="Microsoft.Tpl.Dataflow" Version="4.5.24" />
+	<PackageReference Update="Triangle.NET" Version="1.0.0" />
+	<PackageReference Update="xunit" Version="1.9.2" />
+	<PackageReference Update="xunit.extensions" Version="1.9.2" />
+	<PackageReference Update="xunit.runner.Console" Version="2.1.0" />
+    <PackageReference Update="xUnit.runner.visualstudio" Version="2.3.1" />
+  </ItemGroup>
+  <PropertyGroup>
+    <Version>5.5.2.18</Version>
+    <Authors>KAPPA</Authors>
+    <Company>KAPPA</Company>
+    <Product>Nodal</Product>
+    <Copyright>Copyright © KAPPA 1990-2022</Copyright>
+  </PropertyGroup>
+</Project>

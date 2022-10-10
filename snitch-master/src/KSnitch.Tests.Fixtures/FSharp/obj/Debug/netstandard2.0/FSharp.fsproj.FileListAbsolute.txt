@@ -1,0 +1,6 @@
+c:\Kappa\snitch-master\snitch-master\src\Snitch.Tests.Fixtures\FSharp\obj\Debug\netstandard2.0\FSharp.AssemblyInfoInputs.cache
+c:\Kappa\snitch-master\snitch-master\src\Snitch.Tests.Fixtures\FSharp\obj\Debug\netstandard2.0\FSharp.AssemblyInfo.fs
+c:\Kappa\snitch-master\snitch-master\src\Snitch.Tests.Fixtures\FSharp\obj\Debug\netstandard2.0\FSharp.fsproj.CoreCompileInputs.cache
+C:\Kappa\snitch-master\snitch-master\src\KSnitch.Tests.Fixtures\FSharp\obj\Debug\netstandard2.0\FSharp.AssemblyInfoInputs.cache
+C:\Kappa\snitch-master\snitch-master\src\KSnitch.Tests.Fixtures\FSharp\obj\Debug\netstandard2.0\FSharp.AssemblyInfo.fs
+C:\Kappa\snitch-master\snitch-master\src\KSnitch.Tests.Fixtures\FSharp\obj\Debug\netstandard2.0\FSharp.fsproj.CoreCompileInputs.cache

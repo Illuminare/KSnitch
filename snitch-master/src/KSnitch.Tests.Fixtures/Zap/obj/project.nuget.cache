@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "APK/Y3TfHvcmt/zweNjxkmO+KgK8Pi4nVMNyBfAGSAiswe30d1qxqKGcyXRyLun28Avu0f/IO8I0qKVgI3tDAg==",
+  "success": false,
+  "projectFilePath": "C:\\Kappa\\snitch-master\\snitch-master\\src\\KSnitch.Tests.Fixtures\\Zap\\Zap.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\autofac\\4.9.3\\autofac.4.9.3.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Detected package downgrade: Autofac from 4.9.4 to 4.9.3. Reference the package directly from the project to select a different version. \r\n Zap -> Foo -> Autofac (>= 4.9.4) \r\n Zap -> Autofac (>= 4.9.3)",
+      "libraryId": "Autofac",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
+}
