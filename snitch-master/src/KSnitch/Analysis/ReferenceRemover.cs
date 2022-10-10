@@ -145,7 +145,7 @@ namespace KSnitch.Analysis
             {
                 foreach (var pac in proj.Packages)
                 {
-                    if (!usedRefsList.Contains(pac))
+                    if (!usedRefsList.Any(ur=>ur.Name.ToLower()==pac.Name.ToLower() && (ur.Version==null || pac.Version==null || ur.Version==pac.Version)))
                     {
                         usedRefsList.Add(pac);
                     }
@@ -164,7 +164,7 @@ namespace KSnitch.Analysis
             var nodes = xml.Descendants("PackageReference");
             var nodesToRemove = nodes.Where(n => !usedRefsList.Contains(
                 usedRefsList.FirstOrDefault(
-                    ur => (ur.Name == n.Attribute("Update").Value.ToString()) && 
+                    ur => (ur.Name.ToLower()   == n.Attribute("Update").Value.ToString().ToLower()) && 
                           ((ur.Version==null)||(ur.Version.ToString() == n.Attribute("Version").Value.ToString()))
                     )
                 )

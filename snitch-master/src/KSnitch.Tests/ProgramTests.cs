@@ -216,8 +216,8 @@ namespace KSnitch.Tests
             Fixture.CopyFilesRecursively(new DirectoryInfo(solutionpath), new DirectoryInfo(targetpath));
 
             var paramstrings = new List<string>();
-            paramstrings.Add("c:\\dev5.0_git\\kwtools\\kwtools.sln");
-            //paramstrings.Add(targetpath + "\\KSnitch.Tests.Fixtures.sln");
+            //paramstrings.Add("c:\\dev5.0_git\\kwtools\\kwtools.sln");
+            paramstrings.Add(targetpath + "\\KSnitch.Tests.Fixtures.sln");
             paramstrings.Add("-p -n");
             // When
             var (exitCode, output) = await Fixture.Run(paramstrings.ToArray());
