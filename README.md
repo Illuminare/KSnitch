@@ -3,6 +3,7 @@
 [![NuGet Status](https://img.shields.io/nuget/v/Snitch.svg)](https://www.nuget.org/packages/KSnitch/)
 
 A tool that help you find transitive package references that can be removed. (and remove them)
+Also it can clean packages.props from packages not used in any of solution's projects
 Rework from the Snitch tool by: spectresystems
 
 ## Added functionality:
@@ -12,6 +13,11 @@ Rework from the Snitch tool by: spectresystems
     -m, --applymay             Remove the references from 'Might Remove' subset
     -n, --noBuild              Analyze via solution file without building of all the projects. (Saves the time)
 
+## Commands list
+
+```
+> ksnitch --help
+```
 
 ## Example
 
@@ -66,7 +72,7 @@ Analyzing Zap...
 <sup><a href='/src/KSnitch.Tests/Expectations/Solution.Default.verified.txt#L1-L38' title='Snippet source file'>snippet source</a> | <a href='#snippet-Solution.Default.verified.txt' title='Start of snippet'>anchor</a></sup>
 <!-- endSnippet -->
 
-## Installation
+## Installation (as global tool)
 
 ```
 > dotnet tool install -g ksnitch
